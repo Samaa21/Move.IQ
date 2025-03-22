@@ -1,0 +1,96 @@
+/* General dropdown styles */
+.dropdown-container {
+  display: flex;
+  justify-content: center;
+}
+
+#pose-dropdown-btn {
+  width: 400px;
+  background-color: transparent;
+  color: inherit;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  transition: all 0.3s ease;
+}
+
+#pose-dropdown-btn:hover {
+  border-color: white;
+}
+
+/* Dark Mode */
+body.dark-mode #pose-dropdown-btn {
+  color: white;
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+body.dark-mode .dropdown-menu {
+  background-color: #333;
+  color: white;
+}
+
+body.dark-mode .dropdown-item-container:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+body.dark-mode .dropdown-item-1 {
+  color: white;
+}
+
+body.dark-mode .dropdown-img {
+  border-radius: 8px;
+}
+
+/* Light Mode */
+body.light-mode #pose-dropdown-btn {
+  color: black;
+  border-color: rgba(0, 0, 0, 0.2);
+}
+
+body.light-mode .dropdown-menu {
+  background-color: #f8f9fa;
+  color: black;
+}
+
+body.light-mode .dropdown-item-container:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+body.light-mode .dropdown-item-1 {
+  color: black;
+}
+
+body.light-mode .dropdown-img {
+  border-radius: 8px;
+}
+
+/* Custom scroll for dropdown */
+.dropdown-custom-menu {
+  overflow: scroll;
+  height: 40vh;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.dropdown-custom-menu::-webkit-scrollbar {
+  display: none;
+}
+
+/* Styling for dropdown items */
+.dropdown-item-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.dropdown-item-1 {
+  font-size: 16px;
+  margin: 0;
+  font-weight: 500;
+}
+
+.dropdown-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}

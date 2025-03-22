@@ -1,0 +1,50 @@
+/* General Styles for Instructions */
+.instructions-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+/* Instructions List Styles */
+.instructions-list {
+  width: 40%;
+  border-radius: 8px;
+  border: 5px solid rgba(255, 255, 255, 0.2);
+  padding: 15px;
+  margin-top: 10px;
+  background-color: var(
+    --background
+  ); /* Background color for light/dark theme */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Instruction Text */
+.instruction {
+  margin: 10px;
+  letter-spacing: 0.5px;
+  font-weight: 400;
+  color: var(--text-color); /* Text color for light/dark theme */
+  font-size: 1.1rem;
+}
+
+/* Pose Image Styles */
+.pose-demo-img {
+  height: 400px;
+  aspect-ratio: 1;
+  border-radius: 15px;
+  object-fit: cover;
+}
+
+/* Light Theme Colors */
+.light-theme {
+  --background: #ffffff;
+  --text-color: #333333;
+}
+
+/* Dark Theme Colors */
+.dark-theme {
+  --background: #1e1e1e;
+  --text-color: #f5f5f5;
+}

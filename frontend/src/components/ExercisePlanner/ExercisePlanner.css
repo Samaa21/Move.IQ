@@ -1,0 +1,138 @@
+/* ExercisePlanner.css */
+.exercise-planner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  min-height: 100vh;
+  color: white;
+  text-align: center;
+}
+
+.content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.quote-container {
+  flex: 1;
+  padding: 20px;
+  margin-right: 20px;
+  background: rgba(250, 248, 248, 0.6);
+  border-radius: 10px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+  .quote1  {
+    font-size: 1.5rem;
+    font-style: italic;
+    color: hsl(243, 92%, 10%); /* Gold color for emphasis */
+    display: block;
+    margin-bottom: 50px; /* Adjust spacing as needed */
+  }
+
+  .quote2{
+    font-size: 1.5rem;
+    font-style: italic;
+    color:  hsl(243, 92%, 10%); /* Gold color for emphasis */
+    display: block;
+    margin-bottom: 50px; 
+  }
+  .quote3{
+    font-size: 1.5rem;
+    font-style: italic;
+    color: hsl(243, 92%, 10%);/* Gold color for emphasis */
+    display: block;
+    margin-bottom: 80px; 
+  }
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.exercise-form {
+  flex: 2;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  color: #333;
+}
+
+.exercise-form h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #333;
+}
+
+.exercise-form label {
+  display: block;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.exercise-form input,
+.exercise-form select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.exercise-form button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.exercise-form button:hover {
+  background: #0056b3;
+}
+
+.exercise-plan {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1200px;
+  background: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  color: #333;
+}
+
+.exercise-plan table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.exercise-plan th,
+.exercise-plan td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.exercise-plan th {
+  background: #007bff;
+  color: white;
+}
+
+.exercise-plan tr:nth-child(even) {
+  background: #f9f9f9;
+}
+
+.exercise-plan tr:hover {
+  background: #f1f1f1;
+}
