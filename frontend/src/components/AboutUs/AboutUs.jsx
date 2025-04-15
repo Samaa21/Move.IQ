@@ -103,7 +103,7 @@ const AboutUs = () => {
                 alt="Team Member 2"
               /> */}
               <h4>Aryan Verma</h4>
-              <p>Backend Developer</p>
+              <p>Pose Detection</p>
             </div>
             <div className="team-member">
               {/* <img
