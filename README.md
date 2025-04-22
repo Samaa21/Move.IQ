@@ -1,34 +1,20 @@
+# MOV IQ
+- Developed Effortlessly explore exercises targeting for specific body parts and equipment with
+ease
+- Implemented Open CV technology for ensuring an impressive 85 % accuracy for real-time
+posture feedback during exercises.
+- Created step-by-step guides with YouTube recommendations , ensuring effective workouts
 
-# BlissFit 
+## Main Page
 
-• Effortlessly explore exercises targeting specific body parts and equipment with ease.
-
-• Access step-by-step guides with YouTube recommendations for effective workouts.
-
-• Leverage OpenCV technology, ensuring an impressive 85% accuracy for real-time posture feedback during exercises.
-
-## Screenshots
-
-1. Main page 
-
-![React-App (1)](https://github.com/GarvitSinghal47/Blissfit/assets/82756460/9b5a812d-ddf3-49ef-99ac-1116a5005696)
-
-2. Exercise Page
-
-![React-App2](https://github.com/GarvitSinghal47/Blissfit/assets/82756460/bd674a8d-682f-4999-b21a-2bf9ac3f36eb)
-
-3. Yoga Selection Page
-
-![React-App3](https://github.com/GarvitSinghal47/Blissfit/assets/82756460/956732ff-b630-40d0-83d6-b768887f2d82)
+![Screenshot 2025-02-02 193519](https://github.com/user-attachments/assets/458904bd-7cc6-4096-81d1-916b697025e5)
+![Screenshot 2025-02-02 193537](https://github.com/user-attachments/assets/306e6314-6c50-4f9a-a1f3-1ee7737b4883)
 
 
-4.Yoga Detector Page
+### YogZone
 
-![React-App 4](https://github.com/GarvitSinghal47/Blissfit/assets/82756460/253cf7a8-4684-4f1d-9b0f-a00f8c53c71f)
+![Screenshot 2025-02-02 193705](https://github.com/user-attachments/assets/8f4b57fa-35fd-4974-9581-82abf5359032)
 
-
-
-
-
-
+### Exercise
+![Screenshot 2025-02-02 193643](https://github.com/user-attachments/assets/1e6b34c9-3cc7-48f4-8e07-03412dcb1dee)
 
